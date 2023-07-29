@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tangerine;
+}
+
+body 
+{
+    min-height: 2000vh;
+}
+
+header {
+    position: absolute;
+    top : 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul {
+    display: flex;
+    justify-content: center;
+}
+header ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+header ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #e8e0e5;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+header ul li a:hover,
+header ul li a.active {
+    background:rgb(247, 245, 246);
+    color: #7b194f;
+}
+
+.container {
+    height: 600px;
+    width: 100%;
+    background: linear-gradient(to left bottom, #843020, #88272a, #8a1e34, #891540, #86104d, #912a5b, #9b3e6a, #a55078, #bf7890, #d6a1ac, #ebcbce, #fdf5f5);
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
+    -webkit-animation: color 10s ease-in-out infinite;
+}
+
+@keyframes color {
+    0% {
+        background-position: 0 50%;
+    }
+}
+
+.text-box {
+    animation: slide-up 5s;
+    -webkit-animation: slide-up 5s;
+}
+
+@keyframes slide-up  {
+    from {
+        opacity: 0.2;
+        line-height: 200px;
+       }
+       to {
+        opacity: 1;
+        line-height: 25px;
+       }
+}
+
+h1{
+    text-align: center;
+    font-family: Tangerine;
+    font-size: 6em;
+    color: silver;
+}
+
+h2 {
+  text-align: center;
+  font-family: Tangerine;
+  font-size: 7.5em;
+  color: rgb(240, 230, 230);
+}
+
+p { text-align: center;
+    font-family: Tangerine;
+    font-size: 1.5em;
+    color: silver;
+}
+
+.btn {
+    text-decoration: none;
+    text-align: center;
+    font-family: Tangerine;
+    font-size: 1em;
+    color: rgb(118, 23, 91);
+}
+
+.adjust-line-height {
+    line-height: 7em;
+}
+
+.hero {
+    height: 600px;
+    width: 100%;
+    position: flex;
+    background: linear-gradient(to left top, #fdf5f5, #f7dcdf, #efc4ce, #e5acc0, #d895b6, #d895b6, #d895b6, #d895b6, #e5acc0, #efc4ce, #f7dcdf, #fdf5f5);
+    padding: 30px 50px;
+}
+
+.hero img {
+    margin-top: 20px;
+    margin-right: 100px;
+}
+
+.hero h3 {
+    text-align: left;
+    margin-top: 20px;
+    font-family: Tangerine;
+    font-size: 3.5em;
+    color: rgb(128, 6, 91);
+}
+
+.hero p {
+    text-align: center;
+    font-family: Tangerine;
+    font-size: 1.3em;
+    color: rgb(12, 8, 8);
+    margin-top: 80px;
+}
+
+
+.section {
+    height: 600px;
+    width: 100%;
+    position: flex;
+    background:linear-gradient(to left bottom, #a6448a, #be6494, #d285a2, #e2a6b5, #efc8cd, #efc8cd, #efc8cd,
+     #efc8cd, #e2a6b5, #d285a2, #be6494, #a6448a);
+    padding: 30px 50px;
+}
+
+.section h4 {
+    text-align: left;
+    font-family: Tangerine;
+    font-size: 3.5em;
+    margin-top: 2px;
+    color: rgb(137, 22, 99);
+}
+
+.section p {
+    text-align: center;
+    font-family: Tangerine;
+    font-size: 1.4em;
+    color: rgb(104, 20, 72);
+    margin-top: 80px;
+}
+
+.section img {
+    margin-top: 20px;
+    margin-right: 100px;
+}
+
+.wrapper {
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    background:linear-gradient(to left top, #fdf5f5, #f7dcdf, #efc4ce, #e5acc0, #d895b6, #d895b6, #d895b6, #d895b6, #e5acc0, #efc4ce, #f7dcdf, #fdf5f5);
+    padding: 30px 50px;
+    text-align: center;
+}
+
+.wrapper h5 {
+    text-align: center;
+    font-family: Tangerine;
+    font-size: 3.5em;
+    color: rgb(104, 20, 72);
+    margin-top: 20px;
+}
+
+.wrapper p {
+    text-align: center;
+    font-family: Tangerine;
+    font-size: 1.5em;
+    color: rgb(11, 10, 11);
+    margin-top: 5px;
+}
+
+.wrapper h6 {
+    text-align: center;
+    font-family: Tangerine;
+    font-size: 1.5em;
+    color: rgb(155, 24, 96);
+    margin-top: 80px;
+    text-decoration: underline;
+}
+
+.media ul { 
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.media ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.media ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #e8e0e5;
+    border-radius: 20px;
+}
+
