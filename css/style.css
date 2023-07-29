@@ -50,7 +50,7 @@ header ul li a.active {
     background: linear-gradient(to left bottom, #843020, #88272a, #8a1e34, #891540, #86104d, #912a5b, #9b3e6a, #a55078, #bf7890, #d6a1ac, #ebcbce, #fdf5f5);
     background-size: 300% 300%;
     animation: color 12s ease-in-out infinite;
-    -webkit-animation: color 10s ease-in-out infinite;
+    -webkit-animation: color 8s ease-in-out infinite;
 }
 
 @keyframes color {
